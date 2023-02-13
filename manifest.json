@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "get free paragraphs",
+  "version": "0.1.0",
+  "description": "autoclick and store in array",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://randomwordgenerator.com/*"]
+  }]
+
+}
